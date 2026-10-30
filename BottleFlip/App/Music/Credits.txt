@@ -1,0 +1,16 @@
+# Acoustic instrument source and rights
+
+Music, note arrangements, percussion sequencing and custom rendering were authored for this Bottle Flip soundtrack revision. Unlike revision 1, revision 2 uses recorded acoustic instrument samples.
+
+**VS Chamber Orchestra 2: Community Edition** — Versilian Studios / Sam Gossner and Ivy Audio / Simon Dalzell; sample cutting by Elan Hickler / Soundemote.
+
+- Publisher: https://versilian-studios.com/vsco-community/
+- Official source: https://github.com/sgossner/VSCO-2-CE
+- Sample commit: `440300901dfe9275fd84e0b7763af1f8443ae62e`
+- Licence: CC0 1.0 Universal; the publisher expressly permits commercial use without royalties. Checked 1 October 2026. Complete licence is preserved in `VSCO-2-CE-CC0.txt`.
+- Source README is preserved alongside it, including the requested credit.
+- `sample-provenance.json` records the exact downloaded subset, URLs, byte sizes and SHA-256 hashes. Only piano, strings, harp, flute, marimba and instrumental percussion recordings were selected. No voice/choir content was downloaded or used.
+
+Pitch centres were read from the publisher's SFZ mappings. The original sample naming uses different octave conventions across instruments; the renderer uses those verified MIDI centres rather than assuming an octave offset. The custom sampler preserves recorded attack/body, transposes to the scored pitch and shapes the note release. The shaker and room impulse are original generated noise, not sample-library material.
+
+No paid service, subscription, credits, pretrained music generator, commercial song, or external composition was used. No claim is made that these assembled instrument performances were newly recorded live for this project. Revision 2 is bundled in Bottle Flip for offline playback. Original WAV masters and sample provenance remain in the soundtrack study folder.

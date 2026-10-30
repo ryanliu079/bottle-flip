@@ -1,0 +1,23 @@
+# Local builds and Xcode state
+.build/
+build/
+build-*/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+*.metallib
+
+# Local design studies, recordings, backups and work logs
+backups/
+design/
+research/
+task_plan.md
+findings.md
+progress.md
+scripts/package-soundtrack.py
+
+# Credentials, signing material and local configuration
+.env*
+*.p12
+*.pem
+*.mobileprovision
